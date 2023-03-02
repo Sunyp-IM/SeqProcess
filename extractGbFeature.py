@@ -3,7 +3,7 @@ from Bio import SeqUtils
 from Bio.SeqUtils.IsoelectricPoint import IsoelectricPoint as IP
 import pandas as pd
 
-path = 'H:/projects/vaccina/seq/'
+path = '/path/to/work/directory/'
 infile = path + 'sequence.gb'
 # record = SeqIO.parse(infile, "genbank")
 record = SeqIO.read(open(infile, "r"), "genbank")
