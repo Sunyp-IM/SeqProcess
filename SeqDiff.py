@@ -1,10 +1,10 @@
-# This script picks different positions in aligned sequences
+# This script picks different positions in 2 aligned sequences
 
 from Bio import SeqIO
 import pandas as pd
 
-path = 'H:/projects/MVA/pycharm/'
-infile = path + 'del3f_align.fasta'
+path = '/path/to/work/directory/'
+infile = path + 'input.fasta'
 seqList = []
 records = SeqIO.parse(infile, 'fasta')
 for record in records:
