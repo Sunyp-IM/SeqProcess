@@ -1,3 +1,6 @@
+# This script extract DNA and protein sequences and other related information for 
+# a genome from a gb file downloaded from GenBank.
+
 from Bio import SeqIO
 from Bio import SeqUtils
 from Bio.SeqUtils.IsoelectricPoint import IsoelectricPoint as IP
